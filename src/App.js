@@ -67,7 +67,7 @@ class App extends Component {
                 <div className="clear-messages">
                     <button onClick={this.resetFirebaseMessages}>Clear All Messages</button>
                 </div>
-                <div>
+                <div className="body-container">
                     {body}
                 </div>
             </div>

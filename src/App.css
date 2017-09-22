@@ -18,6 +18,10 @@
     font-size: large;
 }
 
+.body-container {
+    margin-top: 30px;
+}
+
 .clear-messages {
     position: absolute;
     left: 0;
