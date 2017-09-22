@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && surge build/ http://zeeshaan-chat.surge.sh/ && echo The Firebase-React chat app is live at http://zeeshaan-chat.surge.sh/",
+    "deploy": "npm run build && surge build/ http://zeeshaan-chat.surge.sh/",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
