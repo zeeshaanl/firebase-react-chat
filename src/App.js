@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import * as firebase from 'firebase';
+import Header from './components/Header';
 import MessagesBlock from './components/MessagesBlock';
 import NameSet from './components/NameSet';
 import MessageInput from './components/MessageInput';
@@ -63,10 +63,7 @@ class App extends Component {
         );
         return (
             <div className="App">
-                <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Zeeshaan's chat room</h2>
-                </div>
+                <Header />
                 <div className="clear-messages">
                     <button onClick={this.resetFirebaseMessages}>Clear All Messages</button>
                 </div>
